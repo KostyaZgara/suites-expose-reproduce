@@ -1,0 +1,10 @@
+*
+!.gitignore
+!.swcrc
+!package.json
+!test.service.ts
+!test.spec.ts
+!test-depend.service.ts
+!test-sociable.service.ts
+!tsconfig.json
+!yarn.lock
