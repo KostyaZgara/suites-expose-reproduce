@@ -2,9 +2,11 @@
 !.gitignore
 !.swcrc
 !package.json
+!package-lock.json
 !test.service.ts
 !test.spec.ts
 !test-depend.service.ts
 !test-sociable.service.ts
 !tsconfig.json
-!yarn.lock
+!ts-jest-config.json
+!swc-jest-config.json

@@ -12,11 +12,11 @@ describe('Test', () => {
     expect(testDependService.call).toHaveBeenCalledWith(true);
   });
   it('should work manual exposing', () => {
-      const testDependService = new TestDependService();
-      const testDependServiceCall = jest.spyOn(testDependService, 'call');
-      const unit = new TestService(testDependService, new TestSociableService());
+    const testDependService = new TestDependService();
+    const testDependServiceCall = jest.spyOn(testDependService, 'call');
+    const unit = new TestService(testDependService, new TestSociableService());
 
-      unit.test();
-      expect(testDependServiceCall).toHaveBeenCalledWith(true);
+    unit.test();
+    expect(testDependServiceCall).toHaveBeenCalledWith(true);
   });
 })
